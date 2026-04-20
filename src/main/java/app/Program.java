@@ -1,11 +1,11 @@
 package app;
 
 import java.util.InvalidPropertiesFormatException;
-import views.AltaVehiculoView;
+import views.Menu;
 
 public class Program {
     public static void main(String[] args) throws IllegalArgumentException, InvalidPropertiesFormatException {
-        AltaVehiculoView v1 = new AltaVehiculoView();
-        v1.setVisible(true);
+        Menu m1 = new Menu();
+        m1.setVisible(true);
     }
 }
